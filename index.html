@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css" title="normal">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="alternate stylesheet" href="css/nagybetus.css" title="nagybetus">
+    <link rel="stylesheet" href="css/print.css">
+    <script src="js/slideshow.js"></script>
+	<script src="js/styleswitcher.js"></script>
+    <title>Minden a SpaceX-ről</title>
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="media/logo.jpg" alt="SpaceX logó" ></div>
+        <nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;">Nagybetűs változat</a>
+        <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;">Normál változat</a>
+        </nav>
+        <nav>
+            <ul id="menusor">
+                <li><h3><a href="index.html">A SpaceX-ről</a> </h3></li>
+                <li><h3><a href="falcon9.html">Falcon 9</a> </h3></li>
+                <li><h3><a href="crewdragon.html">Crew Dragon</a> </h3></li>
+                <li><h3><a href="starship.html">Starship</a> </h3></li>
+            </ul>
+        </nav>
+        
+        <nav id="email">
+            <ul>
+                <li><a href="email.html">E-mail feliratkozás</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <div id="oldalcim">
+           <h1> A SpaceX-ről</h1>
+        </div>
+        <hr>
+        <div>
+            <div class="slideshow-container">
+            <div class="mySlides fade" style="display: block">
+                <div class="numbertext">1 / 3</div>
+                <img src="media/starship1.jpg" alt="Starship űrhajó">
+                <div class="text">Starship űrhajó</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="media/falcon9.jpg" alt="Falcon 9 rakéta">
+                <div class="text">Falcon 9 rakéta</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="media/starlink2.jpg" alt="Starlink műholdak">
+                <div class="text">Starlink műholdak</div>
+            </div>
+  
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+  
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+    </div>
+    <hr>
+        <aside>
+        <div id="foszovegcim">
+            <h4>Röviden pár mérföldkőről</h4>
+        </div>
+        </aside>
+        <h2 id="tablecim">Fontosabb mérdföldkövek: </h2>
+        <table>
+            <caption>
+                
+                <details>
+                    <summary>Súgó</summary>
+                    <p>A táblázatban a a SpaceX fontosabb mérföldköveit soroljuk fel időrendben.</p>
+                </details>
+            </caption>
+            <tr>
+                <th style="background-color: gray;">Alapítás:</th>
+                <td style="background-color: gray;">2001</td>
+            </tr>
+            <tr>
+                <th style="background-color: rgba(128, 128, 128, 0.705);">Első sikeres fellövés: (Falcon1)</th>
+                <td style="background-color: rgba(128, 128, 128, 0.705);">2008</td>
+            </tr>
+            <tr>
+                <th style="background-color: rgba(128, 128, 128, 0.227);">Első fokozat első sikeres landolása:</th>
+                <td style="background-color: rgba(128, 128, 128, 0.227);">2015</td>
+            </tr>
+            <tr>
+                <th>A Starship fejlesztésének kezdete:</th>
+                <td>2019</td>
+            </tr>
+        </table>
+        <article id="foszoveg">
+            <p >Számos történelmi jelentőségű eredmény fűződik a SpaceX nevéhez, így első rakétájuk, a Falcon 1 volt az első magántőkéből megvalósult folyékony üzemanyagú rakéta, amely elérte a világűrt (2008. szeptember 28-án); az első magánvállalat, amely saját fejlesztésű űrhajóját, a Dragon űrhajót sikeresen Föld körüli pályára állította, majd sikeresen vissza is juttatta azt a Földre (2010. december 9.); az első magánvállalat, amely űrhajót (Dragon) küldött a Nemzetközi Űrállomáshoz (2012. május 25.); az első magánvállalat, amely sikeresen állított műholdat geoszinkron pályára (2013. december 3.); a világon elsőként a Falcon 9 rakéta landolt sikeresen, miután Föld körüli pályára állított egy műholdat (2015. december 16.); a világon elsőként a Falcon 9 rakéta repült újra sikeresen (2017. március 31.).
+                Minőségellenőrzési és költséghatékonysági okokból a SpaceX az eszközeinek többségét maga fejleszti és gyártja, ide értve a Draco, a Merlin, a Kestrel és a Raptor hajtóműveket, valamint a Dragon űrhajót. 2006-ban a NASA szerződést kötött a céggel egy teherűrhajó fejlesztésére és megépítésére, amely képes a Nemzetközi Űrállomást elérni. Mindez lehetővé teszi a SpaceX számára, hogy az iparág legalacsonyabb árait kínálja ügyfeleinek, valamint, hogy az űripar más szereplőihez képest lényegesen rövidebb idő alatt fejlessze ki űreszközeit.
+            </p>
+            <p >
+                Bővebben: <a href="https://hu.wikipedia.org/wiki/SpaceX" id="visited">https://hu.wikipedia.org/wiki/SpaceX</a>
+            </p>
+        </article>
+        <table id="altmenusor">
+            <tr>
+                <td><a href="index.html"> A SpaceX-ről</a></td>
+                <td><a href="falcon9.html">Falcon 9</a> </td>
+            </tr>
+            <tr>
+                <td><a href="crewdragon.html">Crew Dragon</a> </td>
+                <td><a href="starship.html">Starship</a> </td>
+            </tr>
+            <tr>
+                <td colspan="2"><a href="email.html">E-mail feliratkozás</a></td>
+                
+            </tr>
+        </table>
+    </main>
+    <footer>
+        
+    </footer>
+
+</body>
+</html>

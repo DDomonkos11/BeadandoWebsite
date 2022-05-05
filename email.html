@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/email.css">
+    <title>Falcon 9</title>
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="media/logo.jpg" alt="SpaceX logó" ></div>
+        
+        <nav>
+            <ul id="menusor">
+                <li><h3><a href="index.html">A SpaceX-ről</a> </h3></li>
+                <li><h3><a href="falcon9.html">Falcon 9</a> </h3></li>
+                <li><h3><a href="crewdragon.html">Crew Dragon</a> </h3></li>
+                <li><h3><a href="starship.html">Starship</a> </h3></li>
+            </ul>
+        </nav>
+        
+        <nav id="email">
+            <ul>
+                <li><a href="email.html">E-mail feliratkozás</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <div id="oldalcim">
+            <h1> E-mail</h1>
+         </div>
+         <hr>
+         <aside>
+            <div id="foszovegcim">
+                <h4> Feliratkozás a hírlevelünkre </h4>
+            </div>
+        </aside>
+         <form action="mailto:fzrglk@inf.elte.hu" method="POST" enctype="text/plain">
+            <fieldset>
+                <Label>Milyen rendszerességgel szeretnéd megkapni a fontos híreket?</Label>
+                <input type="radio" name="ido" id="hetente">
+                <label for="hetente"> hetente </label>
+                <input type="radio" name="ido" id="havonta">
+                <label for="havonta"> havonta </label> <br>
+                <label>Email címed:</label>
+                <input type="email" name="e-mail" id="e-mail" size="40" maxlength="30"> <br>
+                <input type="radio" name="elfogad" id="elfogad">Elfogadod az ÁSZF-t?> <br>
+                <input type="radio" name="elfogad2" id="elfogad2">Elfogadod a marketing célú megkereséseket? <br>
+                <input type="submit" value="Küldés" class="buttons">
+                <input type="reset" value="Alaphelyzet" class="buttons">
+            </fieldset>
+            
+         </form>
+         <table id="altmenusor">
+            <tr>
+                <td><a href="index.html"> A SpaceX-ről</a></td>
+                <td><a href="falcon9.html">Falcon 9</a> </td>
+            </tr>
+            <tr>
+                <td><a href="crewdragon.html">Crew Dragon</a> </td>
+                <td><a href="starship.html">Starship</a> </td>
+            </tr>
+            <tr>
+                <td colspan="2"><a href="email.html">E-mail feliratkozás</a></td>
+                
+            </tr>
+        </table>
+    </main>
+    <footer>
+        
+    </footer>
+
+</body>
+</html>
